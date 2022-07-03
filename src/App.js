@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
+/* This was insoired by cinthialandia code*/
+
 var sounds = {
   "81": new Audio("/music/meep-morp.mp3"),
   "87": new Audio("/music/steven-amethyst-the-bits.mp3"),
