@@ -65,7 +65,7 @@ function App() {
     <div className="App">
       <div className="title-drum-machine">Steven Universe Drum Machine</div>
       <div id="drum-machine">
-        <div id="container1">
+        <div id="display">
           <button
             onTransitionEnd={handleTransitionEnd}
             className={
@@ -99,8 +99,7 @@ function App() {
           >
             E
           </button>
-        </div>
-        <div className="container2">
+
           <button
             onTransitionEnd={handleTransitionEnd}
             className={
@@ -134,8 +133,7 @@ function App() {
           >
             D
           </button>
-        </div>
-        <div className="container3">
+
           <button
             onTransitionEnd={handleTransitionEnd}
             className={
